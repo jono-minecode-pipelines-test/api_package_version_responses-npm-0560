@@ -1,0 +1,95 @@
+{
+    "name": "@campgladiator/components",
+    "version": "1.0.14",
+    "author": {
+        "name": "renanpvaz",
+        "email": "renan.piresvz@gmail.com"
+    },
+    "license": "SEE LICENSE IN license.txt",
+    "_id": "@campgladiator/components@1.0.14",
+    "maintainers": [
+        {
+            "name": "heckfer",
+            "email": "heckfer@gmail.com"
+        },
+        {
+            "name": "n8cornelius",
+            "email": "n8cornelius@gmail.com"
+        },
+        {
+            "name": "renanpvaz",
+            "email": "renan.piresvz@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/CampGladiator/ui/tree/master/packages/components#readme",
+    "bugs": {
+        "url": "https://github.com/CampGladiator/ui/issues"
+    },
+    "dist": {
+        "shasum": "781734a1b3c432b7b9531fa8226d29315ad34bb1",
+        "tarball": "https://registry.npmjs.org/@campgladiator/components/-/components-1.0.14.tgz",
+        "fileCount": 13,
+        "integrity": "sha512-4T1ApiVoXGqabEIK8QqLxNQQGUtjD/EK/EAoOhaKkBVqlJPkOZt96Sfo3ESUsfqVXSQ+seXqEInqOHEAAB/3Ng==",
+        "signatures": [
+            {
+                "sig": "MEUCIARl/0cX4Nl7rqGfVX43zJFjdcR99vxa8KtDtZzZD+9DAiEAteTU7NnjyfS5HcYpc1KooNvKN46rQ6nYVtrXB7gtzFM=",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 23084,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeS/QKCRA9TVsSAnZWagAAwYIP/An6ZhKzKK/6ITDixupJ\ngnnmbcYObEuA1iPSzdHeVeiKnY55WdrR564knVF0F1PwnqYtLdneEqpSFe1v\nYL8wubbWQL/jJVrjx8I9lCWfI73vT3MSgpnqoEb1DTGBL++x1zaze00GMFea\nMtJzD+86cSCNVJaHQKtFzYrL3X2oD+XmHXCq8e7VQPMtZr/xTY5hzJDTX7/h\nD3Y730kGiNbgiI6poboBCu3sqHnhoZAH5gABBRGyvfEce5UrHQsDzEB7yTCs\nGVy8L7vnwTwfGBErwnVA/8go2pDIcwdXxqyIerSWDj/PZ07hCI7AR3aLLAfH\nRZd3ITMnC6u4C72Aqn0wwFIAIM7o6DNJsSzkpvYvy/BOZMJg7+NlpKx4aplD\nOHMg41WNeoyEE5qKiAaGa6PM3rGrgp7zGOkZJNzqKc8ur7YMpu4OZcFNjoX+\nJi9vUKlWoBjYNdvNrTMPU695WwOP6hu3xHmSurwyCF7cGA3HLQcZZj+xtQgh\nuTppdrsoIQ9tSYn4EMkmxBhcT7QiQPl8/HeV0EAquEloT9ljaUKy/QFXa+2O\nZyFy9kfwVhkbf9SXqzrSVKyP0qw3wJzT5fOEQ6ZENGnMcFat3DM9eepHXC0J\nue1Gs/4agdTEoT0aUsQ/JPtKcpQwfJ2w9jUWOmGzWIFNt9uEfue2LQC3Y9CG\nti19\r\n=M73I\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "jest": {
+        "testEnvironment": "enzyme",
+        "setupFilesAfterEnv": [
+            "jest-enzyme"
+        ]
+    },
+    "main": "",
+    "gitHead": "09118284079900e4188b2753fc94f81ed8602c9e",
+    "scripts": {
+        "test": "jest",
+        "build": "babel lib -d build",
+        "start": "yarn build --watch"
+    },
+    "_npmUser": {
+        "name": "n8cornelius",
+        "email": "n8cornelius@gmail.com"
+    },
+    "repository": {
+        "url": "git+https://github.com/CampGladiator/ui.git",
+        "type": "git"
+    },
+    "_npmVersion": "lerna/3.18.1/node@v8.12.0+x64 (linux)",
+    "description": "A component library for CampGladiator's React apps",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "_nodeVersion": "8.12.0",
+    "dependencies": {
+        "classnames": "^2.2.6"
+    },
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+        "jest": "^24.8.0",
+        "sinon": "^7.3.2",
+        "enzyme": "^3.9.0",
+        "lodash": "^4.17.13",
+        "@babel/cli": "^7.4.4",
+        "mixin-deep": "^1.3.2",
+        "prop-types": "^15.7.2",
+        "@babel/core": "^7.4.4",
+        "jest-enzyme": "^7.0.2",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/preset-react": "^7.0.0",
+        "enzyme-adapter-react-16": "^1.15.1",
+        "jest-environment-enzyme": "^7.0.2",
+        "@babel/plugin-proposal-class-properties": "^7.4.4",
+        "@babel/plugin-proposal-object-rest-spread": "^7.4.4"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/components_1.0.14_1582035978384_0.29315067701877195",
+        "host": "s3://npm-registry-packages"
+    }
+}
